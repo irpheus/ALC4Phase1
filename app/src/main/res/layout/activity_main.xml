@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Welcome_Textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Welcome to ALC 4.0"
+        android:textSize="35sp"
+        android:layout_weight="0"
+         />
+
+
+    <Button
+        android:id="@+id/Button_About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Welcome_Textview"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_weight="0"
+        android:text="ABOUT ALC"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/Button_MyProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_About"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_weight="0"
+        android:text="MY PROFILE"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+
+</RelativeLayout>

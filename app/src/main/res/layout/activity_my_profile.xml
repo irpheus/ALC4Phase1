@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_weight="0"
+        android:id="@+id/ImageView1"
+        android:layout_height="413dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mimi" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track : Android"
+        android:layout_below="@+id/ImageView1"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="173dp"
+        android:layout_weight="0"
+        android:layout_below="@+id/textView4"
+        android:layout_height="30dp"
+        android:text="Country:Kenya"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:text="NAME: Michael Edgar Afundi Malongo"
+        android:textSize="20dp"
+        android:layout_weight="0"
+        android:layout_below="@+id/textView3"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_weight="0"
+        android:layout_below="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: 254721565597"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_weight="0"
+        android:layout_below="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slack Username: @Irpheus"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+
+</RelativeLayout>
